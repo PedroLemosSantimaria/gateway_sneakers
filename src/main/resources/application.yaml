@@ -1,0 +1,13 @@
+spring:
+  port: 8081
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id:
+            client-secret:
+            scope:
+            redirect-uri:
+        provider:
+          keycloak:
